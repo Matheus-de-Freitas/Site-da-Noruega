@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    background-color: var(--menu-background-color);
+    gap: 2rem;
+}
+
+header nav{
+    display: flex;
+    gap: 1.5rem;
+    overflow: scroll;
+    text-align: center;
+    align-items: center;
+    padding: 0.7rem 1rem 0.75rem 0 ;
+}
+
+header img {
+    display: flex;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.25rem 0.25rem 0 0.5rem;
+}
+
+header a{
+    text-decoration: none;
+    background: var(--button-background-color);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+}
+
+header h2{
+    align-items: center;
+    color:#fff;
+}
+
