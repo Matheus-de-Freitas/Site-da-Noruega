@@ -20,11 +20,15 @@ header img {
 }
 
 header a{
-
+    text-decoration: none;
+    background: var(--button-background-color);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
 }
 
 header h2{
     align-items: center;
     color:#fff;
 }
-
