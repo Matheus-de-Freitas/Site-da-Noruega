@@ -1,37 +1,38 @@
 @media(min-width: 650px){
 
     header{
-        padding-bottom: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header nav{
-        overflow: hidden;
+        overflow: visible;
     }
 
     header nav a{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 1rem
     }
 
     header img{
-        margin-top: 0.5rem;
-        height: 6rem;
-        width: 6rem;
-        margin-right: 28rem;
+        height: 4rem;
+        width: 4rem;
     }
 
     p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding-bottom: 2rem;
     }
 
     h2{
-        font-size: 4rem;
+        font-size: 3rem;
         padding-bottom: 2rem;
+        width: 100%;
     }
 
     h3{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .introducao {
@@ -41,41 +42,48 @@
 
     .introducao img {
         padding-inline: 5rem;
-        width: 150rem;
-        height: 70vh;
-        margin-left: 17rem;
+        width: 100vh;
+        margin-left: 23rem;
     }
 
     .introducao img:nth-of-type(4){
         margin-right: 18rem;
     }
 
-    .histora{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .historia{
+        padding-top: 0.5rem;
     }
 
-    .histora img{
-        width: 30rem;
-        height: 30rem;
-        margin-block: 5rem;
+    .historia p{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .historia img{
+        width: 86vh;
+        margin-bottom: 1rem;
     }
 
     .cultura{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        gap: 80vh;
     }
 
-    .cultura img{
-        width: 30rem;
-        height: 30rem;
-        margin-block: 5rem;
+    .cultura p {
+        width: 100%;
+        text-align: left;
     }
 
     .cultura h2{
-        margin-left: -81.7rem;
+        text-align: left;
+    }
+
+    .cultura img{
+        width: 40vh;
+        margin-block: 10vh;
+        margin-left: -50vh;
     }
 
     .info_gerais{
@@ -85,14 +93,9 @@
     }
 
     .info_gerais img{
-        width: 30rem;
-        height: 30rem;
+        width: 60vh;
         margin-inline: 32.5%;
         margin-block: 5rem;
-    }
-
-    .info_gerais h2{
-        margin-left: -15.5em;
     }
 
     .politica{
@@ -101,9 +104,12 @@
         align-items: center;
     }
 
+    .politica p{
+        width: 100%;
+    }
+
     .politica img{        
-        width: 30rem;
-        height: 30rem;
+        width: 60vh;
         margin-inline: 32.5%;
         margin-block: 5rem;
     }
@@ -115,8 +121,7 @@
     }
 
     .pontos_turisticos img{
-        width: 30rem;
-        height: 30rem;
+        width: 70vh;
         margin-bottom: 5rem;
     }
 
@@ -140,15 +145,15 @@
 
     .criadores{
         display: flex;
-        gap: 4rem;
+        gap: 2rem;
         overflow: hidden;
         margin-bottom: 1rem;
         justify-content: center;
     }
 
     .criadores img{
-        width: 15rem;
-        height: 25rem;
+        width: 30vh;
+        height: 50vh;
         margin-block: 7rem;
     }
 
